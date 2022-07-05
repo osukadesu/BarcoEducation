@@ -197,7 +197,7 @@ Light:
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
   m_UseColorTemperature: 0
-  m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 0}
+  m_BoundingSphereOverride: {x: NaN, y: 0, z: 0, w: 1e-45}
   m_UseBoundingSphereOverride: 0
   m_UseViewFrustumForShadowCasterCull: 1
   m_ShadowRadius: 0
@@ -302,7 +302,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1784306840}
         m_TargetAssemblyTypeName: LogicaImg, Assembly-CSharp
-        m_MethodName: Correcto2
+        m_MethodName: JugarAgainSuma
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
